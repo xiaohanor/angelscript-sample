@@ -1,0 +1,4 @@
+class UStormDragonAnimationComponent : UActorComponent
+{
+	
+}

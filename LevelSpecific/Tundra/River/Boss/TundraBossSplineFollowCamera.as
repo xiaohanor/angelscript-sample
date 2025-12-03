@@ -1,0 +1,5 @@
+class ATundraBossSplineFollowCamera : ASplineFollowCameraActor
+{
+	UPROPERTY(DefaultComponent)
+	UCameraSplineFollowBoundaryCollisionComponent FollowBoundaryCollisionComp;
+};

@@ -1,0 +1,3 @@
+class USkylineInnerReceptionistPixelComponent : UStaticMeshComponent
+{
+};

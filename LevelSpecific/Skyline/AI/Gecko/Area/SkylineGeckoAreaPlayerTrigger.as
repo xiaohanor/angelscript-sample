@@ -1,0 +1,5 @@
+// Deprecated
+class ASkylineGeckoAreaPlayerTrigger : APlayerTrigger
+{
+
+}

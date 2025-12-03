@@ -1,0 +1,4 @@
+class UGameShowArenaBombTossGrapplePointComponent : UAutoAimTargetComponent
+{
+	
+}

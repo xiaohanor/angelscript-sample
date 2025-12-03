@@ -1,0 +1,4 @@
+class UContextualCombatTargetableComponent : UContextualMovesTargetableComponent
+{
+	
+}

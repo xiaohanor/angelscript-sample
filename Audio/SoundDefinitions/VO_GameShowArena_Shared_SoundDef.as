@@ -1,0 +1,105 @@
+
+UCLASS(Abstract)
+class UVO_GameShowArena_Shared_SoundDef : UHazeVOSoundDef
+{
+	/* AUTO-GENERATED CODE - Anything from here to end should NOT be edited! */
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombDisposal_OnBombDisposed(FGameShowArenaBombDisposalBombDisposedParams GameShowArenaBombDisposalBombDisposedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombDisposal_OnLidCloseStart(FGameShowArenaBombDisposalLidCloseParams GameShowArenaBombDisposalLidCloseParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombDisposal_OnLidLiftStart(FGameShowArenaBombDisposalLidLiftParams GameShowArenaBombDisposalLidLiftParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossEnding(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossD(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossC(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossB(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossA(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationTutorial(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationIntro(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombDisposal_OnBombDisposalStarted(FGameShowArenaBombDisposalBombDisposalStartedParams GameShowArenaBombDisposalBombDisposalStartedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerLaunchedByLaunchpad(FGameShowArenaPlayerLaunchedByLaunchpadParams GameShowArenaPlayerLaunchedByLaunchpadParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerHurtByFlames(FGameShowArenaPlayerHurtByFlamesParams GameShowArenaPlayerHurtByFlamesParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerBombExploded(FGameShowArenaPlayerBombExplodedParams GameShowArenaPlayerBombExplodedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerCaughtBomb(FGameShowArenaBombCaughtEventParams GameShowArenaBombCaughtEventParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerBombCatchFailed(FGameShowArenaBombCatchFailedEventParams GameShowArenaBombCatchFailedEventParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerTryCatchActive(FGameShowArenaTryCatchBombActiveEventParams GameShowArenaTryCatchBombActiveEventParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerTryCatchStarted(FGameShowArenaTryCatchBombStartedEventParams GameShowArenaTryCatchBombStartedEventParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_PresentationBombTossE(FGameShowArenaAnnouncerVOParams GameShowArenaAnnouncerVOParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerPickedUpBomb(FGameShowArenaBombPickedUpParams GameShowArenaBombPickedUpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerThrowBombNoTarget(FGameShowArenaPlayerThrowBombNoTargetParams GameShowArenaPlayerThrowBombNoTargetParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombToss_OnPlayerThrowBombAtOtherPlayer(FGameShowArenaPlayerThrowBombAtPlayerParams GameShowArenaPlayerThrowBombAtPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaFlameThrower_OnFlamesBurnPlayer(FGameShowArenaFlameThrowerBurnPlayerParams GameShowArenaFlameThrowerBurnPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaFlameThrower_OnFlamesDeactivated(FGameShowArenaFlameThrowerDeactivationParams GameShowArenaFlameThrowerDeactivationParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaFlameThrower_OnFlamesActivated(FGameShowArenaFlameThrowerActivationParams GameShowArenaFlameThrowerActivationParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaBombHolder_OnStartLowering(FGameShowArenaBombHolderLoweringParams GameShowArenaBombHolderLoweringParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnBombDisposed(FGameShowArenaHatchBothPlayerParams GameShowArenaHatchBothPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnBombDisposalStarted(FGameShowArenaHatchBothPlayerParams GameShowArenaHatchBothPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnHatchBombPlayerReadyStopped(FGameShowArenaHatchBombHolderParams GameShowArenaHatchBombHolderParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnHatchBombPlayerReadyStart(FGameShowArenaHatchBombHolderParams GameShowArenaHatchBombHolderParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnHatchCloseStart(FGameShowArenaHatchHolderParams GameShowArenaHatchHolderParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void GameShowArenaAnnouncer_OnHatchOpenStart(FGameShowArenaHatchHolderParams GameShowArenaHatchHolderParams){}
+
+	/* END OF AUTO-GENERATED CODE */
+
+}

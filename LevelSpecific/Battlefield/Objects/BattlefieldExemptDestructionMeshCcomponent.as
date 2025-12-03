@@ -1,0 +1,4 @@
+class UBattlefieldExemptDestructionMeshComponent : UStaticMeshComponent
+{
+	
+}

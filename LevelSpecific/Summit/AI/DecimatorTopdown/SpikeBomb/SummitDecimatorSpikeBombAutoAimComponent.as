@@ -1,0 +1,7 @@
+event void FSummitDecimatorSpikeBombAutoAimSignature();
+
+class USummitDecimatorSpikeBombAutoAimComponent : UActorComponent
+{
+	FSummitDecimatorSpikeBombAutoAimSignature OnAutoAimAssistedHit;
+	FSummitDecimatorSpikeBombAutoAimSignature OnManualAimHit;
+};

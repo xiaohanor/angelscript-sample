@@ -1,0 +1,3 @@
+class ASkylineFlyingCarEnemySpawner : AHazeActorSpawnerBase
+{
+}

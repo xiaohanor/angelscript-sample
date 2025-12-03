@@ -1,0 +1,43 @@
+class UIslandWalkerHeadDeployedBehaviourCompoundCapability : UHazeCompoundCapability
+{
+	default NetworkMode = EHazeCapabilityNetworkMode::Crumb;
+	default CapabilityTags.Add(BasicAITags::CompoundBehaviour);
+
+	UIslandWalkerHeadComponent HeadComp;
+
+	UFUNCTION(BlueprintOverride)
+	void Setup()
+	{
+		HeadComp = UIslandWalkerHeadComponent::Get(Owner);
+	}
+
+	UFUNCTION(BlueprintOverride)
+	bool ShouldActivate() const
+	{
+		if (HeadComp.State != EIslandWalkerHeadState::Deployed)
+			return false;
+		return true;
+	}
+
+	UFUNCTION(BlueprintOverride)
+	bool ShouldDeactivate() const
+	{
+		if (HeadComp.State != EIslandWalkerHeadState::Deployed)
+			return true;
+		return false;
+	}
+
+	UFUNCTION(BlueprintOverride)
+	void OnDeactivated()
+	{
+		ResetCompoundNodes();
+	}
+
+	UFUNCTION(BlueprintOverride)
+	UHazeCompoundNode GenerateCompound()
+	{
+		return UHazeCompoundRunAll()
+				.Add(UHazeCompoundSelector()
+				);
+	}
+}

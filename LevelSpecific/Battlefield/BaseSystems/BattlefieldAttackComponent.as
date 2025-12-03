@@ -1,0 +1,4 @@
+class UBattlefieldAttackComponent : USceneComponent
+{
+	
+}

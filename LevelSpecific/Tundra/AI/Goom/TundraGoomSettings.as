@@ -1,0 +1,4 @@
+class UTundraGoomSettings : UHazeComposableSettings
+{
+	
+}

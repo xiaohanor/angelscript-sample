@@ -1,0 +1,28 @@
+asset BallistaHydraPlayerSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(UBallistaHydraPlayerRespawnCapability);
+//	Capabilities.Add(UBallistaHydraPlayerDisableDeathFirstFramesCapability);
+	Capabilities.Add(UBallistaHydraPlayerProceedToNearBallistaPhaseCapability);
+	Capabilities.Add(UBallistaHydraPlayerProceedToAimingPhaseCapability);
+	Capabilities.Add(UBallistaHydraPlayerPauseProgressUntilLandingCapability);
+	Capabilities.Add(UBallistaHydraPlayerCancelInteractWhenDamagedCapability);
+	Capabilities.Add(UBallistaHydraPlayerDeathCameraCapability);
+}
+
+asset BallistaHydraPlayerDuringHydraRegrowSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(UBallistaHydraPlayerDuringHydraRegrowCapability);
+}
+
+asset BallistaHydraSplineSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(UBallistaHydraSplineMoveCapability);
+	Capabilities.Add(UBallistaHydraSplinePlayerInheritMoveCapability);
+}
+
+asset BallistaHydraSplinePlatformSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(UBallistaHydraSplinePlatformMoveCapability);
+	Capabilities.Add(UBallistaHydraSplinePlatformDisableCapability);
+	Capabilities.Add(UBallistaHydraSplinePlatformWaveLaunchCapability);
+}

@@ -1,0 +1,4 @@
+class USummitBallNonBounceComponent : UActorComponent
+{
+	
+};

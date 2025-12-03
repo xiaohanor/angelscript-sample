@@ -1,0 +1,93 @@
+
+UCLASS(Abstract)
+class UVO_Sanctuary_Hydra_MULTI_SoundDef : UHazeVOSoundDef
+{
+	/* AUTO-GENERATED CODE - Anything from here to end should NOT be edited! */
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnBossPhaseChanged(FSanctuaryBossMedallionManagerEventPhaseData SanctuaryBossMedallionManagerEventPhaseData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnRequestedAnimationChanged(FSanctuaryBossMedallionManagerEventAnimationData SanctuaryBossMedallionManagerEventAnimationData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnAttackStarted(FSanctuaryBossMedallionManagerEventAttackData SanctuaryBossMedallionManagerEventAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnShootProjectile(FSanctuaryBossMedallionManagerEventProjectileData SanctuaryBossMedallionManagerEventProjectileData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnProjectileImpact(FSanctuaryBossMedallionManagerEventProjectileData SanctuaryBossMedallionManagerEventProjectileData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnSplitProjectileSplit(FSanctuaryBossMedallionManagerEventSplitProjectileData SanctuaryBossMedallionManagerEventSplitProjectileData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnProjectileHitWater(FSanctuaryBossMedallionManagerEventProjectileData SanctuaryBossMedallionManagerEventProjectileData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnStartRainAttack(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnRainAttackStartFall(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnMoveToSidescrollerSpamAttack(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnSpamAttackStart(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnSpamAttackStop(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnMeteorAttackStart(FSanctuaryBossMedallionManagerEventPlayerAttackData SanctuaryBossMedallionManagerEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnMoveToSidescrollerLaser(FSanctuaryBossMedallionHydraEventPlayerAttackData SanctuaryBossMedallionHydraEventPlayerAttackData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnTelegraphLaser(FSanctuaryBossMedallionHydraGhostLaserData SanctuaryBossMedallionHydraGhostLaserData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnLaserStart(FSanctuaryBossMedallionHydraGhostLaserData SanctuaryBossMedallionHydraGhostLaserData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnLaserImpactWater(FSanctuaryBossMedallionHydraGhostLaserData SanctuaryBossMedallionHydraGhostLaserData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnLaserStop(FSanctuaryBossMedallionHydraGhostLaserData SanctuaryBossMedallionHydraGhostLaserData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnPlayersApproachHighFiveScreenMerge(){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnPlayersStartTryHighfive(){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnDecapitationMashStart(FSanctuaryBossMedallionManagerHydraData SanctuaryBossMedallionManagerHydraData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnDecapitation(FSanctuaryBossMedallionManagerHydraData SanctuaryBossMedallionManagerHydraData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnDidSneakyResurrection(FSanctuaryBossMedallionManagerHydraData SanctuaryBossMedallionManagerHydraData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnDidSneakyDeath(FSanctuaryBossMedallionManagerHydraData SanctuaryBossMedallionManagerHydraData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraAttackManager_OnTriggerVocalization(FSanctuaryBossMedallionManagerHydraVocalizationData SanctuaryBossMedallionManagerHydraVocalizationData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraWaveAttack_OnStartWaveAttack(){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraWaveAttack_OnWaveAttackPlatformLaunch(FMedallionHydraWaveAttackPlatformData MedallionHydraWaveAttackPlatformData){}
+
+	UFUNCTION(BlueprintEvent)
+	void MedallionHydraWaveAttack_OnWaveAttackPlayerLaunch(FMedallionHydraPlayerData MedallionHydraPlayerData){}
+
+	/* END OF AUTO-GENERATED CODE */
+
+}

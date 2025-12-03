@@ -1,0 +1,66 @@
+
+UCLASS(Abstract)
+class UVO_Tundra_RotatingTwoDimensionalClimb_TreeGuardian_EFFORTS_SoundDef : UHazeVOSoundDef
+{
+	/* AUTO-GENERATED CODE - Anything from here to end should NOT be edited! */
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedShootShootProjectile(FTundraPlayerTreeGuardianRangedShootParams TundraPlayerTreeGuardianRangedShootParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedShootStartPullingProjectile(FTundraPlayerTreeGuardianRangedShootParams TundraPlayerTreeGuardianRangedShootParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedGrappleBlocked(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedGrappleReachedPoint(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnLifeGivingEntering(FTundraPlayerTreeGuardianLifeGivingEffectParams TundraPlayerTreeGuardianLifeGivingEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnNonRangedLifeGivingHandsTouchEarth(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnLifeGivingStopped(FTundraPlayerTreeGuardianLifeGivingEffectParams TundraPlayerTreeGuardianLifeGivingEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnStartGrowingInRangedInteractionRoots(FTundraPlayerTreeGuardianRangedInteractionGrowRootsEffectParams TundraPlayerTreeGuardianRangedInteractionGrowRootsEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnLifeGivingStarted(FTundraPlayerTreeGuardianLifeGivingEffectParams TundraPlayerTreeGuardianLifeGivingEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRootsHitSurface(FTundraPlayerTreeGuardianRangedHitSurfaceEffectParams TundraPlayerTreeGuardianRangedHitSurfaceEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnStartGrowingOutRangedInteractionRoots(FTundraPlayerTreeGuardianRangedInteractionGrowRootsEffectParams TundraPlayerTreeGuardianRangedInteractionGrowRootsEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedGrappleInit(FTundraPlayerTreeGuardianRangedGrappleEnterEffectParams TundraPlayerTreeGuardianRangedGrappleEnterEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnRangedGrappleStartedEnter(FTundraPlayerTreeGuardianRangedGrappleEnterEffectParams TundraPlayerTreeGuardianRangedGrappleEnterEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnTransformedOutOf(FTundraPlayerTreeGuardianTransformParams TundraPlayerTreeGuardianTransformParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnTransformedInto(FTundraPlayerTreeGuardianTransformParams TundraPlayerTreeGuardianTransformParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnFootstepAudio_Release(FTundraPlayerTreeGuardianAudioFootstepParams TundraPlayerTreeGuardianAudioFootstepParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnFootstepAudio_Plant_Right(FTundraPlayerTreeGuardianAudioFootstepParams TundraPlayerTreeGuardianAudioFootstepParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnFootstepAudio_Plant_Left(FTundraPlayerTreeGuardianAudioFootstepParams TundraPlayerTreeGuardianAudioFootstepParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnFootstep(FTundraPlayerTreeGuardianOnFootstepParams TundraPlayerTreeGuardianOnFootstepParams){}
+
+	/* END OF AUTO-GENERATED CODE */
+
+}

@@ -1,0 +1,4 @@
+class ASolarLiftActor : AHazeActor
+{
+	
+}

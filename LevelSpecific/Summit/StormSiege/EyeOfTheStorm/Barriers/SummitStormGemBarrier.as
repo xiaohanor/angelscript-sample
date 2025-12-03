@@ -1,0 +1,4 @@
+class ASummitStormGemBarrier : ASummitNightQueenGem
+{
+
+}

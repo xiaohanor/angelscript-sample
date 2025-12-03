@@ -1,0 +1,3 @@
+class ASanctuaryTraversalAreaActor : ATraversalAreaActor
+{
+}

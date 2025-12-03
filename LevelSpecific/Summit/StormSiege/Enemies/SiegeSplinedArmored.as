@@ -1,0 +1,4 @@
+class ASiegeSplinedArmored : ASiegeBaseEnemy
+{
+	
+}

@@ -1,0 +1,6 @@
+event void FSummitDecimatorSpikeBombShockwaveResponseSignature();
+
+class USummitDecimatorShockwaveSpikeBombResponseComponent : UActorComponent
+{
+	FSummitDecimatorSpikeBombShockwaveResponseSignature OnHitByShockwave;
+};

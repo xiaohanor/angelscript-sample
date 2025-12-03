@@ -1,0 +1,4 @@
+class ADragonRunGemObstacle : ASummitNightQueenGem
+{
+	
+}

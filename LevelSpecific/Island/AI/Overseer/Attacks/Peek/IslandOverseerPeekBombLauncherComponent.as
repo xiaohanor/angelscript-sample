@@ -1,0 +1,6 @@
+event void IslandOverseerPeekBombLauncherComponentAttackEvent();
+
+class UIslandOverseerPeekBombLauncherComponent : UBasicAIProjectileLauncherComponent
+{
+	IslandOverseerPeekBombLauncherComponentAttackEvent OnAttack;
+}

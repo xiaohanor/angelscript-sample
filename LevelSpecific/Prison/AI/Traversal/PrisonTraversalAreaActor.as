@@ -1,0 +1,3 @@
+class APrisonTraversalAreaActor : ATraversalAreaActor
+{
+}

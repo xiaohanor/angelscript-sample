@@ -1,0 +1,112 @@
+namespace AviationCapabilityTags
+{
+	const FName AviationReady = n"AviationReady";
+	const FName Aviation = n"Aviation";
+	const FName AviationRiding = n"AviationRiding";
+	const FName AviationSequence = n"AviationSequence";
+	const FName MegaCompanion = n"MegaCompanion";
+	const FName MegaCompanionVisible = n"MegaCompanionVisible";
+	const FName AviationPrepareCameraFocus = n"AviationPrepareCameraFocus";
+};
+
+asset SanctuaryAviationTutorialSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryCompanionAviationEvaluateStopPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInputCapability);
+	Capabilities.Add(USanctuaryCompanionAviationToAttackDestinationCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationRidePlayerTutorialCapability);
+	Capabilities.Add(USanctuaryCompanionAviationRideReadyPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationSidewaySwingMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAssignTutorialDestinationCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationTutorialStartPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationTutorialCameraCapability);
+
+	Capabilities.Add(USanctuaryCompanionMegaGoingSoloSplineCapability);
+	Capabilities.Add(USanctuaryCompanionAviationDisableCompanionActivationTutorialCapability);
+}
+
+asset SanctuaryAviationPhase1Sheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryCompanionAviationEvaluateStopPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationStartPlayerCapability);
+	// Capabilities.Add(USanctuaryCompanionAviationMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInputCapability);
+	Capabilities.Add(USanctuaryCompanionAviationSwoopBackCapability);
+	Capabilities.Add(USanctuaryCompanionAviationRidePlayerTutorialCapability);
+	Capabilities.Add(USanctuaryCompanionAviationRideReadyPlayerCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationToAttackCameraCapability);
+	Capabilities.Add(USanctuaryBossArenaSidescrollCameraFocusPlayerCapability); 
+	Capabilities.Add(USanctuaryBossArenaSidescrollLockPlayerCapability); 
+	Capabilities.Add(USanctuaryCompanionAviationSkydiveCapability);
+	Capabilities.Add(USanctuaryCompanionAviationShowCoopAttackWidgetCapability); 
+	Capabilities.Add(USanctuaryCompanionAviationDisableCompanionActivationCapability); 
+	Capabilities.Add(USanctuaryCompanionAviationPhase1DisableDeathCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationSplineMovementCapability);
+
+	Capabilities.Add(USanctuaryBossDisableInCutsceneCapability);
+}
+
+asset SanctuaryAviationAttackSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryCompanionAviationAttackCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAttackMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAttackTutorialCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInitiateAttackCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInitiateAttackWindowCapability);
+	Capabilities.Add(USanctuaryCompanionAviationSidewaySwingMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAttackCameraCapability);
+	Capabilities.Add(USanctuaryCompanionAviationExitAttackCameraCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInitiateAttackTutorialCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInputCoopAttackCapability);
+	Capabilities.Add(USanctuaryCompanionAviationPrepareCameraFocusCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInitAttackCameraCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationEntryMovementCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationToAttackDestinationCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationShowCoopAttackWidgetCapability);
+	Capabilities.Add(USanctuaryCompanionAviationDisableSidescrollingCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationAssignToAttackDestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAssignPhase1SwoopBackDestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAssignPhase1SwoopInDestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationAssignPhase1AttackHydraDestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationPhase1LerpDestinationToQuadCenterCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationMegaCompanionLerpRidingOffsetPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationLerpMovementCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationShowAttackDiscCapability);
+
+	// Capabilities.Add(USanctuaryCompanionAviationToAttackMovementCapability);
+};
+
+asset SanctuaryAviationPhase2Sheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryCompanionAviationEvaluateStopPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationStartPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationMovementCapability);
+	Capabilities.Add(USanctuaryCompanionAviationInputCapability);
+	Capabilities.Add(USanctuaryCompanionAviationRideReadyPlayerCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationAssignPhase2DestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationPhase2DisableDeathCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationToAttackDestinationCapability);
+	Capabilities.Add(USanctuaryCompanionAviationSidewaySwingMovementCapability);
+};
+
+asset SanctuaryMegaCompanionSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryCompanionAviationMegaCompanionPlayerCapability);
+	Capabilities.Add(USanctuaryCompanionAviationRideMegaCompanionPlayerCapability);
+	// Capabilities.Add(USanctuaryCompanionAviationEnableMegaCompanionPlayerCapability);
+
+	Capabilities.Add(USanctuaryCompanionAviationAnimationPlayerCapability);
+}

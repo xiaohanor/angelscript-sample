@@ -1,0 +1,57 @@
+
+UCLASS(Abstract)
+class UVO_Island_Stormdrain_ShieldOTronSolo_SoundDef : UHazeVOSoundDef
+{
+	/* AUTO-GENERATED CODE - Anything from here to end should NOT be edited! */
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnLaunchRocketAttack(FIslandShieldotronRocketAttackPlayerEventData IslandShieldotronRocketAttackPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnLaunchMortarAttack(FIslandShieldotronMortarAttackPlayerEventData IslandShieldotronMortarAttackPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnStartTelegraphMortarAttack(FIslandShieldotronMortarTelegraphPlayerEventData IslandShieldotronMortarTelegraphPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnShieldotronStunned(FIslandShieldotronPlayerEventData IslandShieldotronPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnShieldotronDamage(FIslandShieldotronPlayerEventData IslandShieldotronPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnShieldotronDeath(FIslandShieldotronPlayerEventData IslandShieldotronPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandShieldotronPlayer_OnShieldotronStartDying(FIslandShieldotronPlayerEventData IslandShieldotronPlayerEventData){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandForceFieldPlayer_OnForceFieldSwitchedType(FIslandForceSwitchTypeParams IslandForceSwitchTypeParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandForceFieldPlayer_OnForceFieldDepleted(FIslandForceFieldDepletedPlayerEventParams IslandForceFieldDepletedPlayerEventParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnAttached(FIslandRedBlueStickyGrenadeOnAttachedParams IslandRedBlueStickyGrenadeOnAttachedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnResetGrenade(FIslandRedBlueStickyGrenadeBasicEffectParams IslandRedBlueStickyGrenadeBasicEffectParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnDespawnOnForceField(FIslandRedBlueStickyGrenadeOnDespawnOnForceFieldParams IslandRedBlueStickyGrenadeOnDespawnOnForceFieldParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnDetonate(FIslandRedBlueStickyGrenadeOnDetonateParams IslandRedBlueStickyGrenadeOnDetonateParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnThrowGrenadeAudio(FIslandRedBlueStickyGrenadeOnThrowParams IslandRedBlueStickyGrenadeOnThrowParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnThrowGrenade(FIslandRedBlueStickyGrenadeOnThrowParams IslandRedBlueStickyGrenadeOnThrowParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void IslandRedBlueStickyGrenade_OnAttachedAudio(FIslandRedBlueStickyGrenadeOnAttachedParams IslandRedBlueStickyGrenadeOnAttachedParams){}
+
+	/* END OF AUTO-GENERATED CODE */
+
+}

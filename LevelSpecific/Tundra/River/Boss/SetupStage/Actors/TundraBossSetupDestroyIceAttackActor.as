@@ -1,0 +1,25 @@
+class ATundraBossSetupDestroyIceAttackActor : AHazeActor
+{
+	UPROPERTY(DefaultComponent, RootComponent)
+	USceneComponent Root;
+
+	UPROPERTY(DefaultComponent, Attach = Root)
+	UHazeSkeletalMeshComponentBase PreviewSkelMesh;
+	default PreviewSkelMesh.bIsEditorOnly = true;
+	default PreviewSkelMesh.bHiddenInGame = true;
+
+	UPROPERTY(DefaultComponent)
+	UHazeListedActorComponent ListComp;
+
+	default PrimaryActorTick.bStartWithTickEnabled = false;
+	default ActorHiddenInGame = true;
+
+	UPROPERTY(EditInstanceOnly)
+	int PlatformIndex = 0;
+
+	UFUNCTION(BlueprintOverride)
+	void BeginPlay()
+	{
+	
+	}
+};

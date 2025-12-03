@@ -1,0 +1,4 @@
+asset SplitSlideTransitionToHoverboardPlayerSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USplitSlideTransitionToHoverboardPlayerCapability);
+}

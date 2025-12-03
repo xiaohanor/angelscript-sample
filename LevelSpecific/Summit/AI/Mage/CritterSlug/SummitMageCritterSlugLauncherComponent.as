@@ -1,0 +1,4 @@
+class USummitMageCritterSlugLauncherComponent : UBasicAIProjectileLauncherComponent
+{
+	
+}

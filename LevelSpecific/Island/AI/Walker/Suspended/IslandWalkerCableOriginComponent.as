@@ -1,0 +1,3 @@
+class UIslandWalkerCableOriginComponent : USceneComponent
+{
+}

@@ -1,0 +1,29 @@
+
+class UAnimInstanceSummitGiantsFishing : UHazeAnimInstanceBase
+{
+	// Animations
+
+	UPROPERTY(BlueprintReadOnly, Category = "Animations")
+    FHazePlaySequenceData Mh;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Animations")
+    FHazePlaySequenceData Succsess;
+
+	// FeatureTags and SubTags
+
+
+
+    // On Initialize
+	UFUNCTION(BlueprintOverride)
+	void BlueprintInitializeAnimation()
+	{
+        
+    }
+
+    // On Tick Update
+	UFUNCTION(BlueprintOverride)
+	void BlueprintUpdateAnimation(float DeltaTime)
+	{
+        
+    }
+}

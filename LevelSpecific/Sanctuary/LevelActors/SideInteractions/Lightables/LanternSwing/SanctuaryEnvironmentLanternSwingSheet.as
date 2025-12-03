@@ -1,0 +1,5 @@
+asset SanctuaryEnvironmentLanternSwingSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryEnvironmentLanternSwingBirdCapability);
+	Capabilities.Add(USanctuaryEnvironmentLanternSwingFishCapability);
+}

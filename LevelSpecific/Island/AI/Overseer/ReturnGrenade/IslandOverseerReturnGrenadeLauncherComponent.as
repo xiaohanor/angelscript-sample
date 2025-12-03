@@ -1,0 +1,5 @@
+class UIslandOverseerReturnGrenadeLauncherComponent : UBasicAINetworkedProjectileLauncherComponent
+{
+	UPROPERTY()
+	TSubclassOf<UIslandOverseerReturnGrenadeCrosshairWidget> CrosshairWidgetClass;
+}

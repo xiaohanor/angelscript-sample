@@ -1,0 +1,4 @@
+class USummitMageSpiritBallLauncherComponent : UBasicAIProjectileLauncherComponent
+{
+	
+}

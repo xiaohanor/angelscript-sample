@@ -1,0 +1,180 @@
+
+UCLASS(Abstract)
+class UVO_Dentist_NightmareBoss_SoundDef : UHazeVOSoundDef
+{
+	/* AUTO-GENERATED CODE - Anything from here to end should NOT be edited! */
+
+	UFUNCTION(BlueprintEvent)
+	void OnHammerSplitPlayer(FDentistBossEffectHandlerOnHammerSplitPlayerParams DentistBossEffectHandlerOnHammerSplitPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnHammerHitScraper(FDentistBossEffectHandlerOnHammerHitScraperParams DentistBossEffectHandlerOnHammerHitScraperParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnScraperHookedPlayer(FDentistBossEffectHandlerOnScraperHookedPlayerParams DentistBossEffectHandlerOnScraperHookedPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothPasteLanded(FDentistBossEffectHandlerOnToothPasteLandedParams DentistBossEffectHandlerOnToothPasteLandedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothPasteShot(FDentistBossEffectHandlerOnToothPasteShotParams DentistBossEffectHandlerOnToothPasteShotParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothBrushHitToothPaste(FDentistBossEffectHandlerOnToothBrushHitToothPasteParams DentistBossEffectHandlerOnToothBrushHitToothPasteParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothBrushStoppedBrushing(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothBrushStartedBrushing(FDentistBossEffectHandlerOnToothBrushStartedBrushingParams DentistBossEffectHandlerOnToothBrushStartedBrushingParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnChairDestroyedByEscaping(FDentistBossEffectHandlerOnChairDestroyedByEscapingParams DentistBossEffectHandlerOnChairDestroyedByEscapingParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnChairDestroyedByDrill(FDentistBossEffectHandlerOnChairDestroyedByDrillParams DentistBossEffectHandlerOnChairDestroyedByDrillParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesDestroyedWithGrabber(FDentistBossEffectHandlerOnDenturesDestroyedWithGrabberParams DentistBossEffectHandlerOnDenturesDestroyedWithGrabberParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesKilledByGroundPound(FDentistBossEffectHandlerOnDenturesKilledByGroundPoundParams DentistBossEffectHandlerOnDenturesKilledByGroundPoundParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesGroundPounded(FDentistBossEffectHandlerOnDenturesGroundPoundedParams DentistBossEffectHandlerOnDenturesGroundPoundedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDrillHitStopped(FDentistBossEffectHandlerOnDrillStoppedParams DentistBossEffectHandlerOnDrillStoppedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDrillSplitTooth(FDentistBossEffectHandlerOnDrillSplitToothParams DentistBossEffectHandlerOnDrillSplitToothParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDrillHitStarted(FDentistBossEffectHandlerOnDrillHitStartedParams DentistBossEffectHandlerOnDrillHitStartedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnGrabberDestroyed(FDentistBossEffectHandlerOnGrabberDestroyedParams DentistBossEffectHandlerOnGrabberDestroyedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnGrabberGroundPounded(FDentistBossEffectHandlerOnGrabberGroundPoundedParams DentistBossEffectHandlerOnGrabberGroundPoundedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnPlayerWiggleStickMaxReached(FDentistBossEffectHandlerOnPlayerWiggleStickMaxReachedParams DentistBossEffectHandlerOnPlayerWiggleStickMaxReachedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnSwitchedState(FDentistBossEffectHandlerOnSwitchedStateParams DentistBossEffectHandlerOnSwitchedStateParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesReleased(FDentistBossEffectHandlerOnDenturesReleasedParams DentistBossEffectHandlerOnDenturesReleasedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesAboutToBeReleased(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnSwitchedDrillTelegraph(FDentistBossEffectHandlerOnSwitchedDrillTelegraphParams DentistBossEffectHandlerOnSwitchedDrillTelegraphParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesBeingRiddenByPlayer(FDentistBossEffectHandlerOnDenturesBeingRiddenByPlayerParams DentistBossEffectHandlerOnDenturesBeingRiddenByPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupMovementStoppedParams(FDentistBossEffectHandlerOnCupMovementStoppedParams DentistBossEffectHandlerOnCupMovementStoppedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnPlayerCaughtInCup(FDentistBossEffectHandlerOnPlayerCaughtByCupParams DentistBossEffectHandlerOnPlayerCaughtByCupParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDrillStartedSpinningArena(FDentistBossEffectHandlerOnDrillStartedSpinningArenaParams DentistBossEffectHandlerOnDrillStartedSpinningArenaParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDentistChaseStarted(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnSelfDrillComplete(FDentistBossEffectHandlerOnSelfDrillCompleteParams DentistBossEffectHandlerOnSelfDrillCompleteParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnSelfDrillHitTeeth(FDentistBossEffectHandlerOnSelfDrillHitTeethParams DentistBossEffectHandlerOnSelfDrillHitTeethParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnSelfDrillStarted(FDentistBossEffectHandlerOnSelfDrillStartedParams DentistBossEffectHandlerOnSelfDrillStartedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesStartedBitingGrabber(){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupDisappearAfterBecomingFlattenedParams(FDentistBossEffectHandlerOnCupDisappearAfterBecomingFlattenedParams DentistBossEffectHandlerOnCupDisappearAfterBecomingFlattenedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupBecomeFlattenedParams(FDentistBossEffectHandlerOnCupBecomeFlattenedParams DentistBossEffectHandlerOnCupBecomeFlattenedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesScrewStoppedDespawning(FDentistBossEffectHandlerOnDenturesWindupScrewDespawnStoppedParams DentistBossEffectHandlerOnDenturesWindupScrewDespawnStoppedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesScrewStartedDespawning(FDentistBossEffectHandlerOnDenturesWindupScrewDespawnStartParams DentistBossEffectHandlerOnDenturesWindupScrewDespawnStartParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesScrewStoppedSpawning(FDentistBossEffectHandlerOnDenturesWindupScrewSpawnStoppedParams DentistBossEffectHandlerOnDenturesWindupScrewSpawnStoppedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesScrewStartSpawning(FDentistBossEffectHandlerOnDenturesWindupScrewSpawnStartParams DentistBossEffectHandlerOnDenturesWindupScrewSpawnStartParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesLanded(FDentistBossEffectHandlerOnDenturesLandedParams DentistBossEffectHandlerOnDenturesLandedParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesBite(FDentistBossEffectHandlerOnDenturesBiteParams DentistBossEffectHandlerOnDenturesBiteParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFreeJumpStart(FDentistBossEffectHandlerOnDenturesFreeJumpParams DentistBossEffectHandlerOnDenturesFreeJumpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFreeJumpLand(FDentistBossEffectHandlerOnDenturesFreeJumpParams DentistBossEffectHandlerOnDenturesFreeJumpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFreeJumpedOffCake(FDentistBossEffectHandlerOnDenturesFreeJumpParams DentistBossEffectHandlerOnDenturesFreeJumpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesRiddenJumpStart(FDentistBossEffectHandlerOnDenturesRiddenJumpParams DentistBossEffectHandlerOnDenturesRiddenJumpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesRiddenJumpLand(FDentistBossEffectHandlerOnDenturesRiddenJumpParams DentistBossEffectHandlerOnDenturesRiddenJumpParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFlipJumpStart(FDentistBossEffectHandlerOnDenturesFlipParams DentistBossEffectHandlerOnDenturesFlipParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFlipOver(FDentistBossEffectHandlerOnDenturesFlipParams DentistBossEffectHandlerOnDenturesFlipParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesFlipBack(FDentistBossEffectHandlerOnDenturesFlipParams DentistBossEffectHandlerOnDenturesFlipParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnDenturesPushBitePlayer(FDentistBossEffectHandlerOnDenturesBitePushPlayerParams DentistBossEffectHandlerOnDenturesBitePushPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnToothBrushHitPlayer(FDentistBossEffectHandlerOnToothBrushHitPlayerParams DentistBossEffectHandlerOnToothBrushHitPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupPlacedOnCake(FDentistBossEffectHandlerOnCupPlacedOnCakeParams DentistBossEffectHandlerOnCupPlacedOnCakeParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupSwitchedPlaceStart(FDentistBossEffectHandlerOnCupSwitchPlaceParams DentistBossEffectHandlerOnCupSwitchPlaceParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupSwitchedPlaceStop(FDentistBossEffectHandlerOnCupSwitchPlaceParams DentistBossEffectHandlerOnCupSwitchPlaceParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnCupChosenByDashingPlayer(FDentistBossEffectHandlerOnCupChosenByDashingPlayerParams DentistBossEffectHandlerOnCupChosenByDashingPlayerParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnPlayerWiggleStickStarted(FDentistBossEffectHandlerOnPlayerWiggleStickParams DentistBossEffectHandlerOnPlayerWiggleStickParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnPlayerToothSplit(FDentistBossEffectHandlerOnPlayerToothSplitParams DentistBossEffectHandlerOnPlayerToothSplitParams){}
+
+	UFUNCTION(BlueprintEvent)
+	void OnPlayerToothReunited(FDentistBossEffectHandlerOnPlayerToothSplitParams DentistBossEffectHandlerOnPlayerToothSplitParams){}
+
+	/* END OF AUTO-GENERATED CODE */
+
+}

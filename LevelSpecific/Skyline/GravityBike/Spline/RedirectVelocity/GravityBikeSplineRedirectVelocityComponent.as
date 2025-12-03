@@ -1,0 +1,4 @@
+class UGravityBikeSplineRedirectVelocityComponent : UActorComponent
+{
+	TArray<AGravityBikeSplineRedirectVelocityVolume> CurrentRedirectVelocityVolumes;
+};

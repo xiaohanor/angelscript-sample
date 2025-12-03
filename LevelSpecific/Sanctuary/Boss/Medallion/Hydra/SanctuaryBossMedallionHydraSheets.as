@@ -1,0 +1,14 @@
+asset SanctuaryBossMedallionHydraSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryBossMedallionHydraEmissiveFaceCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraEmissiveFaceFadeOutCapability);
+
+	Capabilities.Add(USanctuaryBossMedallionHydraDeathCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraStrangleCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraMovePivotCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraMoveActorCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraGloryKillSubmergeCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraAnimFlyCloseAlphaCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraBallistaAggroCapability);
+	Capabilities.Add(USanctuaryBossMedallionHydraHideBehindCameraCapability);
+}

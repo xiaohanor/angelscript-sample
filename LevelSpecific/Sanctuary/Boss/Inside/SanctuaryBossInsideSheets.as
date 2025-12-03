@@ -1,0 +1,12 @@
+asset SanctuaryBossInsideZoeSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryBossInsideShowZoeCompanionAimCapability);
+	Capabilities.Add(USanctuaryBowDarkMegaCompanionPlayerCapability);
+	Capabilities.Add(USanctuaryBossInsidePlayerEnsureRespawnGroundedCapability);
+}
+
+asset SanctuaryBossInsideMioSheet of UHazeCapabilitySheet
+{
+	Capabilities.Add(USanctuaryBowLightMegaCompanionPlayerCapability);
+	Capabilities.Add(USanctuaryBossInsidePlayerEnsureRespawnGroundedCapability);
+}
