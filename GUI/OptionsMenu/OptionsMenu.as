@@ -7,6 +7,7 @@ struct FPlatformLegalText
 	TArray<TSoftObjectPtr<ULicenseAsset>> LegalTexts;
 }
 
+// 选项菜单的主容器 Widget。负责管理整个设置界面的生命周期，包括顶部标签页的导航切换（音频、视频、游戏性等）、子页面的加载与显示，以及底部的全局功能按钮（返回、重置、法律信息）的事件处理。
 class UOptionsMenu : UHazeUserWidget
 {
 	default bIsFocusable = true;

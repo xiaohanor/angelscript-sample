@@ -1,6 +1,7 @@
 
 event void FOnOptionFocused(UOptionWidget Widget);
 
+// 所有具体设置控件（如滑动条、枚举选择器、开关）的基类。定义了通用的交互行为，包括焦点管理（鼠标/手柄）、悬停状态更新，以及标准的设置应用 (Apply) 和重置 (Reset) 接口供子类实现。
 class UOptionWidget : UHazeUserWidget
 {
 	default bIsFocusable = true;

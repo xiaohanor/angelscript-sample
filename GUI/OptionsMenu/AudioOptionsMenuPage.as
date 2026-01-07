@@ -1,3 +1,4 @@
+// 音频设置页面的具体实现类。负责处理音量调节、扬声器配置（立体声/环绕声/耳机）以及夜间模式等逻辑。它会根据硬件能力动态更新 UI（例如在不支持 3D 音频时隐藏相关选项），并监听系统配置的变更。
 class UAudioOptionsMenuPage : UOptionsMenuPage
 {
 	UPROPERTY(BindWidget)

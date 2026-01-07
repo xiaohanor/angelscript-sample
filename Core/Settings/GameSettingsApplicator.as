@@ -56,6 +56,7 @@ class UHazeAudioDefaultMenuSettings : UHazeAudioDefaultMenuSettingsBase
 
 event void FOnPostSpeakerConfigUpdates();
 
+// 游戏设置的核心单例类。负责管理所有游戏设置的逻辑状态，处理 Wwise 音频 RTPC 参数的应用，以及根据不同平台（如 PC, Console, Sage）加载特定的默认配置。它是 UI 和底层引擎参数之间的桥梁。
 class UGameSettingsApplicator: UHazeGameSettingsApplicatorBase
 {
 	TArray<EHazeAudioDynamicRange> SettingsToDynamicRange;
